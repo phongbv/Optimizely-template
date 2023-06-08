@@ -1,0 +1,16 @@
+using Cms.Common.ContentTypes.Blocks.$BLOCK_NAME$;
+using Cms.Common.ViewModels.$BLOCK_NAME$;
+using Cms.Core.Controllers;
+using Cms.Core.Extensions.Content;
+using Cms.Core.Extensions.Mvc;
+using Microsoft.AspNetCore.Mvc;
+
+namespace Cms.Common.Controllers.$BLOCK_NAME$;
+
+public class $BLOCK_NAME$BlockController : CmsBaseBlockComponent<$BLOCK_NAME$Block, $BLOCK_NAME$BlockViewModel>
+{
+    public override IViewComponentResult Execute($BLOCK_NAME$Block block)
+    {
+        return View(Model);
+    }
+}

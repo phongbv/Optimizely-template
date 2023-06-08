@@ -1,0 +1,12 @@
+using System.ComponentModel.DataAnnotations;
+using Cms.Common.Infrastructure.Attributes;
+using Cms.Core.Models.Content.Blocks;
+using EPiServer.Web;
+
+namespace Cms.Common.ContentTypes.Blocks.$BLOCK_NAME$;
+
+[ContentType(DisplayName = "$BLOCK_FRIENDLY_NAME$", GUID = "$GUID$")]
+public class $BLOCK_NAME$Block : CmsBaseBlockData
+{
+    
+}

@@ -1,0 +1,8 @@
+using Cms.Common.ContentTypes.Blocks;
+using Cms.Core.Abstraction.ViewModels;
+
+namespace Cms.Common.ViewModels.$BLOCK_NAME$;
+
+public class $BLOCK_NAME$BlockViewModel : CmsBlockViewModel<$BLOCK_NAME$Block>
+{
+}
