@@ -5,7 +5,7 @@ using EPiServer.Web;
 
 namespace Cms.Common.ContentTypes.Blocks.$BLOCK_NAME$;
 
-[ContentType(DisplayName = "$BLOCK_FRIENDLY_NAME$", GUID = "$GUID$")]
+[ContentType(DisplayName = "$BLOCK_FRIENDLY_NAME$ block", GUID = "$GUID$")]
 public class $BLOCK_NAME$Block : CmsBaseBlockData
 {
     

@@ -1,4 +1,4 @@
-using Cms.Common.ContentTypes.Blocks;
+using Cms.Common.ContentTypes.Blocks.$BLOCK_NAME$;
 using Cms.Core.Abstraction.ViewModels;
 
 namespace Cms.Common.ViewModels.$BLOCK_NAME$;

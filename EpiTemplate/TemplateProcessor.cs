@@ -23,7 +23,7 @@ public class TemplateProcessor
 
     public async Task Process(string projectName, string blockName, bool hasViewModel)
     {
-        await ProcessInternal(blockName, $"{blockName}.cs", $"{_contentFolderPath}\\{blockName}", $"{projectName}_block.template");
+        await ProcessInternal(blockName, $"{blockName}Block.cs", $"{_contentFolderPath}\\{blockName}", $"{projectName}_block.template");
         if (hasViewModel)
         {
             await  ProcessInternal(blockName, $"{blockName}BlockViewModel.cs", $"{_viewModelFolderPath}\\{blockName}",
